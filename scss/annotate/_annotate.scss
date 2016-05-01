@@ -1,0 +1,26 @@
+.annotate-bg{
+	background-color: #FF0000;
+	cursor: pointer;
+	position: relative;
+}
+
+.annotate-popup{
+	width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    position: absolute;
+    left: 0;
+    margin-top: -250px;
+    text-align: center;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.21);
+	-moz-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.21);
+	box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.21);
+}
+
+.annotate-popup .annotate-textfield{
+	width: 290px;
+	height: 170px;
+	border: 1px solid #bdbdbd;
+}
